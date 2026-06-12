@@ -50,7 +50,7 @@ export default function WhatsAppFAB() {
         target="_blank"
         rel="noopener noreferrer"
         className="w-14 h-14 bg-[#25D366] text-white rounded-full flex items-center justify-center shadow-lg hover:scale-110 hover:shadow-xl transition-all duration-300 group"
-        aria-label="Message Dr. Santosh on WhatsApp"
+        aria-label="Message Dr. Santosh Kulkarni on WhatsApp"
       >
         {/* WhatsApp Custom SVG Icon */}
         <svg

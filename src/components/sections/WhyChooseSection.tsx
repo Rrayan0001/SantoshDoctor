@@ -13,7 +13,7 @@ const features = [
   {
     icon: MessageCircle,
     title: "Patient-First Communication",
-    description: "Dr. Santosh takes time to explain every step clearly and listens with empathy, ensuring patients feel confident in their decisions.",
+    description: "Dr. Santosh Kulkarni takes time to explain every step clearly and listens with empathy, ensuring patients feel confident in their decisions.",
   },
   {
     icon: Clock,
@@ -37,7 +37,7 @@ export default function WhyChooseSection() {
           <div className="lg:col-span-7 flex flex-col items-start text-left">
             <SectionHeading
               eyebrow="Why Us"
-              heading="Why Patients Trust Dr. Santosh"
+              heading="Why Patients Trust Dr. Santosh Kulkarni"
               align="left"
             />
 
@@ -69,7 +69,7 @@ export default function WhyChooseSection() {
             <div className="relative w-full max-w-[360px] aspect-[4/3] sm:aspect-[3/4] rounded-image overflow-hidden shadow-hero-image border border-primary/10 group">
               <Image
                 src="/images/clinical_scrubs_patients.jpeg"
-                alt="Dr. Santosh in consultations - Women's Specialist"
+                alt="Dr. Santosh Kulkarni in consultations - Women's Specialist"
                 fill
                 sizes="(max-width: 1024px) 100vw, 360px"
                 className="object-cover group-hover:scale-105 transition-transform duration-500"

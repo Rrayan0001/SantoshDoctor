@@ -5,12 +5,12 @@ import TestimonialCard from "../ui/TestimonialCard";
 
 const testimonials = [
   {
-    text: "Dr. Santosh guided me through a high-risk pregnancy with so much patience and expertise. I felt completely safe throughout. Cannot recommend enough.",
+    text: "Dr. Santosh Kulkarni guided me through a high-risk pregnancy with so much patience and expertise. I felt completely safe throughout. Cannot recommend enough.",
     name: "Ananya R.",
     tag: "High-Risk Pregnancy Patient",
   },
   {
-    text: "After years of struggling with PCOS, Dr. Santosh finally gave me a clear plan and real results. Life-changing experience.",
+    text: "After years of struggling with PCOS, Dr. Santosh Kulkarni finally gave me a clear plan and real results. Life-changing experience.",
     name: "Preethi S.",
     tag: "PCOS Patient",
   },
@@ -30,7 +30,7 @@ export default function TestimonialsSection() {
         <SectionHeading
           eyebrow="Patient Stories"
           heading="What Our Patients Say"
-          subheading="Real feedback from women who have trusted Dr. Santosh with their care."
+          subheading="Real feedback from women who have trusted Dr. Santosh Kulkarni with their care."
         />
 
         {/* Responsive Testimonials Row/Grid */}

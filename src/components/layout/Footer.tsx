@@ -17,7 +17,7 @@ export default function Footer() {
         {/* Brand Column */}
         <div className="flex flex-col gap-4">
           <span className="font-display text-2xl font-bold tracking-tight text-white leading-none">
-            Dr. Santosh
+            Dr. Santosh Kulkarni
           </span>
           <span className="font-sans text-xs text-text-light tracking-wide uppercase leading-none">
             Gynecologist & Women&apos;s Health
@@ -105,7 +105,7 @@ export default function Footer() {
       {/* Footer Bottom Banner */}
       <div className="max-w-7xl mx-auto px-6 md:px-8 pt-8 border-t border-white/8 flex flex-col md:flex-row items-center justify-between gap-4">
         <p className="font-sans text-xs text-text-light text-center md:text-left">
-          © {new Date().getFullYear()} Dr. Santosh. All rights reserved.
+          © {new Date().getFullYear()} Dr. Santosh Kulkarni. All rights reserved.
         </p>
         <p className="font-sans text-xs text-text-light flex items-center gap-1.5 justify-center md:justify-end">
           Built with <Heart className="w-3.5 h-3.5 text-accent fill-accent animate-pulse" /> for better healthcare.

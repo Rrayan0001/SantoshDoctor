@@ -45,7 +45,7 @@ export default function HeroSection() {
             transition={{ duration: 0.6, delay: 0.1 }}
             className="font-display text-4xl sm:text-5xl lg:text-[56px] font-bold leading-[1.1] text-text-dark tracking-tight mb-6"
           >
-            <span className="text-primary block">Dr. Santosh</span>
+            <span className="text-primary block">Dr. Santosh Kulkarni</span>
             Gynecologist & <br />
             Women&apos;s Health Specialist
           </motion.h1>
@@ -120,7 +120,7 @@ export default function HeroSection() {
             >
               <Image
                 src="/images/headshot_navy.jpeg"
-                alt="Dr. Santosh - Professional Gynecologist Headshot"
+                alt="Dr. Santosh Kulkarni - Professional Gynecologist Headshot"
                 width={380}
                 height={636}
                 priority

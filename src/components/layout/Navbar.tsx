@@ -52,8 +52,8 @@ export default function Navbar() {
             onClick={(e) => handleLinkClick(e, "#home")}
             className="flex flex-col group cursor-pointer"
           >
-            <span className="font-display text-2xl md:text-3xl font-bold text-primary tracking-tight leading-none">
-              Dr. Santosh
+            <span className="font-display text-xl md:text-2xl font-bold text-primary tracking-tight leading-none">
+              Dr. Santosh Kulkarni
             </span>
             <span className="font-sans text-[10px] md:text-[11px] font-medium text-text-mid tracking-wide uppercase mt-1">
               Gynecologist & Women&apos;s Health Specialist
@@ -125,7 +125,7 @@ export default function Navbar() {
           {/* Logo brand wordmark in drawer */}
           <div className="mb-10">
             <span className="font-display text-2xl font-bold text-primary block leading-none">
-              Dr. Santosh
+              Dr. Santosh Kulkarni
             </span>
             <span className="font-sans text-[10px] text-text-mid tracking-wide uppercase mt-1 block">
               Women&apos;s Health Specialist

@@ -26,7 +26,7 @@ export default function AboutSection() {
             <div className="relative w-full max-w-[400px] aspect-[4/5] sm:aspect-[768/1288] rounded-image overflow-hidden shadow-hero-image border border-primary/10">
               <Image
                 src="/images/clinical_scrubs_patients.jpeg"
-                alt="Dr. Santosh in a clinical consultation with patients"
+                alt="Dr. Santosh Kulkarni in a clinical consultation with patients"
                 fill
                 sizes="(max-width: 1024px) 100vw, 400px"
                 className="object-cover"
@@ -54,10 +54,10 @@ export default function AboutSection() {
 
             <div className="space-y-4 font-sans text-base text-text-mid leading-relaxed mb-8">
               <p>
-                Dr. Santosh is a highly experienced Gynecologist and Obstetrician with over 15 years of dedicated practice in women&apos;s health. Known for a calm, thorough, and patient-first approach, Dr. Santosh has guided thousands of women through some of life&apos;s most significant moments.
+                Dr. Santosh Kulkarni is a highly experienced Gynecologist and Obstetrician with over 15 years of dedicated practice in women&apos;s health. Known for a calm, thorough, and patient-first approach, Dr. Santosh Kulkarni has guided thousands of women through some of life&apos;s most significant moments.
               </p>
               <p>
-                With expertise ranging from routine check-ups to complex laparoscopic procedures, Dr. Santosh combines clinical precision with genuine empathy — ensuring every patient feels heard, respected, and cared for.
+                With expertise ranging from routine check-ups to complex laparoscopic procedures, Dr. Santosh Kulkarni combines clinical precision with genuine empathy — ensuring every patient feels heard, respected, and cared for.
               </p>
             </div>
 
