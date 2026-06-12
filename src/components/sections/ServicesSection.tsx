@@ -68,7 +68,7 @@ export default function ServicesSection() {
   const whatsappUrl = `https://wa.me/${phoneNumber}?text=Hi%20Dr.%20Santosh%2C%20I'd%20like%20to%20ask%20about%20your%20services.`;
 
   return (
-    <section id="services" className="py-20 bg-surface scroll-mt-20">
+    <section id="services" className="py-12 md:py-20 bg-surface scroll-mt-20">
       <div className="max-w-7xl mx-auto px-6 md:px-8">
         
         {/* Section Heading */}
@@ -79,7 +79,7 @@ export default function ServicesSection() {
         />
 
         {/* Services Grid */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 mb-16">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8 mb-16">
           {servicesList.map((service, index) => (
             <ServiceCard
               key={index}

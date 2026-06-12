@@ -82,7 +82,7 @@ export default function ContactSection() {
   };
 
   return (
-    <section id="contact" className="py-20 bg-surface scroll-mt-20">
+    <section id="contact" className="py-12 md:py-20 bg-surface scroll-mt-20">
       <div className="max-w-7xl mx-auto px-6 md:px-8">
         
         {/* Section Heading */}
@@ -214,7 +214,7 @@ export default function ContactSection() {
 
           {/* Right Column - Appointment Form */}
           <div className="lg:col-span-7 w-full">
-            <div className="bg-white p-8 sm:p-10 rounded-card border border-border-custom shadow-card">
+            <div className="bg-white p-5 sm:p-8 md:p-10 rounded-card border border-border-custom shadow-card">
               
               {submitSuccess ? (
                 /* Success Message */

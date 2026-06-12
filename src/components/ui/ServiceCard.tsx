@@ -9,7 +9,7 @@ interface ServiceCardProps {
 
 export default function ServiceCard({ icon: Icon, title, description, tag }: ServiceCardProps) {
   return (
-    <div className="group relative bg-white p-8 rounded-card shadow-card hover:shadow-2xl hover:translate-y-[-4px] transition-all duration-300 overflow-hidden border-t-0 border-primary">
+    <div className="group relative bg-white p-6 sm:p-8 rounded-card shadow-card hover:shadow-2xl hover:translate-y-[-4px] transition-all duration-300 overflow-hidden border-t-0 border-primary">
       {/* Top Border Hover Reveal */}
       <div className="absolute top-0 left-0 right-0 h-[3px] bg-primary scale-x-0 group-hover:scale-x-100 transition-transform duration-300 origin-left" />
 

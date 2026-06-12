@@ -82,7 +82,7 @@ export default function GallerySection() {
   };
 
   return (
-    <section id="gallery" className="py-20 bg-white scroll-mt-20">
+    <section id="gallery" className="py-12 md:py-20 bg-white scroll-mt-20">
       <div className="max-w-7xl mx-auto px-6 md:px-8">
         
         {/* Section Heading */}
@@ -93,7 +93,7 @@ export default function GallerySection() {
         />
 
         {/* Gallery Grid - Responsive Columns */}
-        <div className="columns-1 sm:columns-2 lg:columns-3 gap-8 space-y-8">
+        <div className="columns-1 sm:columns-2 lg:columns-3 gap-4 sm:gap-8 space-y-4 sm:space-y-8">
           {galleryItems.map((item, idx) => (
             <div
               key={idx}

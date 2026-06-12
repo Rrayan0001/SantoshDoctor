@@ -133,7 +133,7 @@ export default function HeroSection() {
               initial={{ opacity: 0, x: -30, y: 20 }}
               animate={{ opacity: 1, x: 0, y: 0 }}
               transition={{ duration: 0.6, delay: 0.5 }}
-              className="absolute bottom-[-15px] left-[-25px] bg-white px-4 py-2.5 rounded-card shadow-card border border-border-custom flex items-center gap-2 z-20 hover:scale-105 transition-transform"
+              className="absolute bottom-[-15px] left-[-10px] sm:left-[-25px] bg-white px-4 py-2.5 rounded-card shadow-card border border-border-custom flex items-center gap-2 z-20 hover:scale-105 transition-transform"
             >
               <span className="text-primary text-sm font-bold">✅</span>
               <span className="font-sans text-xs font-bold text-text-dark">
@@ -146,7 +146,7 @@ export default function HeroSection() {
               initial={{ opacity: 0, x: 30, y: -20 }}
               animate={{ opacity: 1, x: 0, y: 0 }}
               transition={{ duration: 0.6, delay: 0.6 }}
-              className="absolute top-[-10px] right-[-20px] bg-white px-4.5 py-2.5 rounded-card shadow-card border border-border-custom flex items-center gap-2 z-20 hover:scale-105 transition-transform"
+              className="absolute top-[-10px] right-[-5px] sm:right-[-20px] bg-white px-4.5 py-2.5 rounded-card shadow-card border border-border-custom flex items-center gap-2 z-20 hover:scale-105 transition-transform"
             >
               <span className="w-2 h-2 rounded-full bg-primary animate-ping" />
               <span className="w-2 h-2 rounded-full bg-primary absolute left-[22px]" />

@@ -29,7 +29,7 @@ const features = [
 
 export default function WhyChooseSection() {
   return (
-    <section className="py-20 bg-white scroll-mt-20">
+    <section className="py-12 md:py-20 bg-white scroll-mt-20">
       <div className="max-w-7xl mx-auto px-6 md:px-8">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16 items-center">
           
@@ -41,7 +41,7 @@ export default function WhyChooseSection() {
               align="left"
             />
 
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-8 w-full">
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 sm:gap-8 w-full">
               {features.map((feature, index) => {
                 const Icon = feature.icon;
                 return (
@@ -66,7 +66,7 @@ export default function WhyChooseSection() {
 
           {/* Right Column - Cropped Tall Card Image */}
           <div className="lg:col-span-5 relative w-full flex justify-center">
-            <div className="relative w-full max-w-[360px] aspect-[3/4] rounded-image overflow-hidden shadow-hero-image border border-primary/10 group">
+            <div className="relative w-full max-w-[360px] aspect-[4/3] sm:aspect-[3/4] rounded-image overflow-hidden shadow-hero-image border border-primary/10 group">
               <Image
                 src="/images/clinical_scrubs_patients.jpeg"
                 alt="Dr. Santosh in consultations - Women's Specialist"
